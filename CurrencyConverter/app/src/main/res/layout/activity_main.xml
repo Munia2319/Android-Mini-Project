@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currency Converter"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:gravity="center"
+            android:inputType="number"
+            android:id="@+id/edtINId1"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Crd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BDT to USD"
+
+                />
+            <RadioButton
+                android:id="@+id/Crd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD to BDT"
+
+                />
+            <RadioButton
+                android:id="@+id/Crd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD to IND"
+
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CbtnCalculate"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:background="@color/cardview_dark_background"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CbtnClear"
+            android:text="Clear"
+            android:layout_gravity="center"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
