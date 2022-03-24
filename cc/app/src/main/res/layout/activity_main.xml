@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currency Converter"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/edtINId1"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Crd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BDT to USD"
+
+                />
+            <RadioButton
+                android:id="@+id/Crd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD to BDT"
+
+                />
+            <RadioButton
+                android:id="@+id/Crd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD to IND"
+
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CbtnCalculate"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:background="@color/cardview_dark_background"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CbtnClear"
+            android:text="Clear"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height Converter"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginVertical="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Height"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/edtINId2"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Hrd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centimeter to Feet"
+
+                />
+            <RadioButton
+                android:id="@+id/Hrd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feet To Inch"
+
+                />
+            <RadioButton
+                android:id="@+id/Hrd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feet to Centimeter"
+
+                />
+
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HbtnCalculate"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:background="@color/cardview_dark_background"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HbtnClear"
+            android:text="Clear"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="weight Converter"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginVertical="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/edtINId3"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Wrd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pound to kg"
+
+                />
+            <RadioButton
+                android:id="@+id/Wrd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg to Pound"
+
+                />
+            <RadioButton
+                android:id="@+id/Wrd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg to Ounces"
+
+                />
+            <RadioButton
+                android:id="@+id/Wrd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg to Gram"
+
+                />
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/WbtnCalculate"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:background="@color/cardview_dark_background"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/WbtnClear"
+            android:text="Clear"
+            android:layout_gravity="center"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
